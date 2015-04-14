@@ -26,8 +26,9 @@ Needed Tools: Matlab, Compiled MOSES or other BLEU calculation methods.
 3. ELM training.
     3.1 Running ELM.m to train the Reranking model. In this file, you can modify 'TrainingSentenceNum' to select the number of 
     sentences that you want to train, and the rest of the corpus is used for testing. Pay attention that the TrainingSentenceNum
-    must be smaller than the all sentences. You can modify 'NumberofHiddenNeurons' and 'ActiovationFunction' to modify the detials
-    of the training network.
+    must be smaller than the all sentences. You can modify 'NumberofHiddenNeurons' and 'ActiovationFunction' to modify the          detials of the training network.
+
     3.2 After running ELM.m, it gives training time, testing time, training accuracy and testing accuracy.
+    
 4. Calculate BLEUs
-    3.2 Running PostProcessing, you can get the reranked BLUEs and baseline of training and testing BLEUs.
+    Running PostProcessing, you can get the reranked BLUEs and baseline of training and testing BLEUs.
